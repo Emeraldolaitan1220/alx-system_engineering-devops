@@ -1,0 +1,3 @@
+#!/bin/bash
+chmod +x create_my_dir.sh
+
