@@ -1,0 +1,15 @@
+#!/bin/bash
+binary=$BINARY
+decimal=0
+position=1
+
+while [ $binary -gt 0 ]
+do
+    digit=$(( binary % 10 ))
+    decimal=$(( decimal + digit * position ))
+    position=$(( position * 2 ))
+    binary=$(( binary / 10 ))
+done
+
+echo $decimal
+
