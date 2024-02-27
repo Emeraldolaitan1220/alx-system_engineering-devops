@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+number=1
+while [ $number -le 20 ];
+do
+	echo "$number"
+	case $number in
+		"4")
+			echo "bad luck from china"
+			;;
+		"9")
+			 echo "bad luck from japan"
+                        ;;
+		"17")
+			 echo "bad luck from italy"
+			 
+                        ;;
+	esac
+	((number++))
+done
