@@ -47,3 +47,4 @@
 <pre>sudo puppet module install puppetlabs-stdlib</pre>
 </details>
 
+<h3> Ojo Olaitan</h3>
